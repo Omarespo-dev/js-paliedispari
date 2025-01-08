@@ -30,5 +30,5 @@ function parolaPalindroma(parola){
 
 // Parola inversa
 function parolaInversa(parola){
-    return parola.split("").reverse().join("");
+    return parola.split("").reverse().join("")
 }
