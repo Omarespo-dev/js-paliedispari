@@ -13,7 +13,7 @@ console.log(parolaPalindroma(userWord));
 function parolaPalindroma(parola){
     
     // Parola Palindroma
-    let palindromaParola= " ";
+    let palindromaParola= "";
     
     // Parola inversa presa da function
     let inversaParola=parolaInversa(parola);

@@ -8,8 +8,8 @@
 // / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / 
 
 // L’utente sceglie pari o dispari 
-const scegliNumero=prompt("Pari o Dispari");
-console.log("L'utente sceglie:",scegliNumero)
+const scegliParola=prompt("Pari o Dispari");
+console.log("L'utente sceglie:",scegliParola)
 
 // inserisce un numero da 1 a 5
 const inserisciNumero=parseInt(prompt("Inserisci un numero da 1 a 5"))
@@ -32,7 +32,11 @@ console.log("La somma è:",risultatoVerifica)
 
 // Dichiaramo chi ha vinto
 
-
+if(scegliParola === risultatoVerifica){
+    console.log("L'utente ha vinto")
+}else{
+    console.log("L'utente ha perso")
+}
 
 /// / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /FUNZIONI / / / / / / / / / / / / / / / / / / / / / 
 
