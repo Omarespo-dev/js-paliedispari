@@ -18,7 +18,7 @@ function parolaPalindroma(parola){
     // Parola inversa presa da function
     let inversaParola=parolaInversa(parola);
 
-    // Condizione dove impostiamo una condizione 
+    // Condizione  
     if(parola == inversaParola){
         palindromaParola="Questa parola è Palindroma"
     } else{
